@@ -1,5 +1,5 @@
 # coding: UTF-8
-require "./shintyoku_doudesuka/version"
+require "shintyoku_doudesuka/version"
 
 module ShintyokuDoudesuka
   class Talk
@@ -32,7 +32,7 @@ module ShintyokuDoudesuka
     end
     
     def comment
-      print "#{min[@step.to_i,100]}% "
+      print "#{[(@step.to_i),100].min}% "
       print '進捗どうですか ＞ '
       if @speed > 2.0
         print 'いい感じです'

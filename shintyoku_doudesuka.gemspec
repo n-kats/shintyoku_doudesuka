@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = ShintyokuDoudesuka::VERSION
   spec.authors       = ["n-kats"]
   spec.email         = ["n-kats19890214@hotmail.co.jp"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{The evil phrase "shintyoku doudesuka", which brought fear to Japan !}
+  spec.description   = %q{The evil phrase "shintyoku doudesuka", which brought fear to Japan !}
   spec.homepage      = ""
   spec.license       = "MIT"
 
